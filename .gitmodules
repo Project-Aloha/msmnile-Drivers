@@ -1,3 +1,6 @@
 [submodule "components/QC8150/Device/Raphael"]
 	path = components/QC8150/Device/Raphael
 	url = https://github.com/woa-msmnile/Raphael
+[submodule "components/QC8150/Device/Andromeda"]
+	path = components/QC8150/Device/Andromeda
+	url = https://github.com/woa-msmnile/Andromeda
