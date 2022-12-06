@@ -7,3 +7,6 @@
 [submodule "components/QC8150/Device/Hotdog"]
 	path = components/QC8150/Device/Hotdog
 	url = https://github.com/woa-msmnile/Hotdog
+[submodule "components/QC8150/Device/Nabu"]
+	path = components/QC8150/Device/Nabu
+	url = https://github.com/woa-msmnile/Nabu
