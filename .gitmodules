@@ -10,3 +10,6 @@
 [submodule "components/QC8150/Device/Nabu"]
 	path = components/QC8150/Device/Nabu
 	url = https://github.com/woa-msmnile/Nabu
+[submodule "components/QC8150/Device/Vayu"]
+	path = components/QC8150/Device/Vayu
+	url = https://github.com/woa-msmnile/Vayu
