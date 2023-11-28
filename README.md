@@ -8,6 +8,12 @@ All driver binary files form a board support package to be used on Surface Duo 1
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
 
+## Add/Update drivers
+Refer to this [Guide](./AddAndUpdateDeviceModule.md).
+
+## Install drivers
+Refer to this [Guide](https://woa-msmnile.github.io/InstallationGuides/InstallDrivers.html).
+
 ## Resources
 
 ## Copyright, License, Disclaimers and end user license agreement
