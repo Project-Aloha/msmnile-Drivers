@@ -6,7 +6,7 @@
   ```
 - Thirdly, add the submodule.
   ```
-  git submodule add [url-to-your-submodule] components/QC8150/Device/
+  git submodule add [url-to-your-submodule] components/QC8150/Device/[Codename]
   ```
 - Then `git add` & `git commit` & `git push`.
 
