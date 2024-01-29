@@ -47,6 +47,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems" Name="raphael_mcfg.inf" ID="raphael_mcfg"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems" Name="raphael_subextadsp.inf" ID="raphael_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems" Name="raphael_subextcdsp.inf" ID="raphael_subextcdsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems" Name="raphael_subextmpss.inf" ID="raphael_subextmpss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\WLAN\China" Name="SurfaceDuo_wpextwapi8150.inf" ID="SurfaceDuo_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\WLAN\Settings" Name="SurfaceDuo_WlanMisc.inf" ID="SurfaceDuo_WlanMisc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Settings" Name="oled.inf" ID="oled"/>
