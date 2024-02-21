@@ -24,6 +24,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\TFA987x_amp" Name="TFA987x_amp.inf" ID="TFA987x_amp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Battery\FuelGauge" Name="HotdogBattery.inf" ID="HotdogBattery"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Bluetooth" Name="surfaceduo_btfmuart.inf" ID="surfaceduo_btfmuart"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Cellular" Name="surfaceduo_ipa.inf" ID="surfaceduo_ipa"/>

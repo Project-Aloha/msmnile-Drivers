@@ -51,7 +51,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\WLAN\Settings" Name="SurfaceDuo_WlanMisc.inf" ID="SurfaceDuo_WlanMisc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Settings" Name="oled.inf" ID="oled"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Settings" Name="SurfaceDuo_DeviceInfo.inf" ID="SurfaceDuo_DeviceInfo"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\GRAPHICS.SOC_QC8150.HOTDOG_DESKTOP_WDDM25" Name="SurfaceDuo_dx.inf" ID="SurfaceDuo_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\GRAPHICS.SOC_QC8150.HOTDOG_DESKTOP_WDDM26" Name="SurfaceDuo_dx.inf" ID="SurfaceDuo_dx"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
