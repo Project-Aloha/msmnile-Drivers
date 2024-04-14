@@ -16,3 +16,6 @@
 [submodule "components/QC8150/Device/QRD855"]
 	path = components/QC8150/Device/QRD855
 	url = https://github.com/woa-msmnile/QRD855
+[submodule "components/QC8150/Device/Alpha"]
+	path = components/QC8150/Device/Alpha
+	url = https://github.com/woa-msmnile/Alpha
