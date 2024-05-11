@@ -86,7 +86,8 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\RPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\RPC" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
+            <!-- BSOD sometimes -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
