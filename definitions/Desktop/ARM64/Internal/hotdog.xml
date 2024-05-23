@@ -24,6 +24,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Customizations" Name="MTPOEM.inf" ID="MTPOEM"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8150.inf" ID="qcaudminiport_Base8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\TFA987x_amp" Name="TFA987x_amp.inf" ID="TFA987x_amp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Battery\FuelGauge" Name="HotdogBattery.inf" ID="HotdogBattery"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Bluetooth" Name="qcbtfmuart8150.inf" ID="qcbtfmuart8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Cellular" Name="qcipa8150.inf" ID="qcipa8150"/>
