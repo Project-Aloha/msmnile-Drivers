@@ -2,6 +2,7 @@
     <Drivers>
         <BaseDriverPackages>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature_woa-msmnile.inf" ID="desktopsignature_woa-msmnile"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" ID="FM Radio Interface"/>
@@ -16,44 +17,8 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG_MINIMAL\Drivers\SOC\I2C" Name="surfaceduo_i2c.inf" ID="surfaceduo_i2c"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG_MINIMAL\Drivers\SOC\SPI" Name="surfaceduo_spi.inf" ID="surfaceduo_spi"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG_MINIMAL\Drivers\SOC\TrEE" Name="surfaceduo_tree.inf" ID="surfaceduo_tree"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG_MINIMAL\Drivers\SOC\UART" Name="surfaceduo_uart.inf" ID="surfaceduo_uart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Customizations" Name="MTPOEM.inf" ID="MTPOEM"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8150.inf" ID="qcaudminiport_Base8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Audio\TFA987x_amp" Name="TFA987x_amp.inf" ID="TFA987x_amp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Battery\FuelGauge" Name="HotdogBattery.inf" ID="HotdogBattery"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Bluetooth" Name="surfaceduo_btfmuart.inf" ID="surfaceduo_btfmuart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Cellular" Name="surfaceduo_ipa.inf" ID="surfaceduo_ipa"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Graphics" Name="OneplusOemPanel.inf" ID="OneplusOemPanel"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Sensors\SSC" Name="SurfaceDuo_sensors.inf" ID="SurfaceDuo_sensors"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\Touch" Name="S6SY761Touch.inf" ID="S6SY761Touch"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Drivers\WLAN" Name="surfaceduo_wlan.inf" ID="surfaceduo_wlan"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\ACDB" Name="Oneplus_acsp.inf" ID="Oneplus_acsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\AudMiniport" Name="Oneplus_audminiext.inf" ID="Oneplus_audminiext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\Device" Name="oneplus_auddevext.inf" ID="oneplus_auddevext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\Dolby" Name="dax3_ext_qc_dolbyatmos_dolbyaccessoem.inf" ID="dax3_ext_qc_dolbyatmos_dolbyaccessoem"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\Dolby" Name="dax3_qc_ext_bt.inf" ID="dax3_qc_ext_bt"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\ListenSoundModel" Name="SurfaceDuo_listenext.inf" ID="SurfaceDuo_listenext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Audio\ListenSoundModel" Name="SurfaceDuo_listensm.inf" ID="SurfaceDuo_listensm"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\BatteryCurrentLimiter" Name="surfaceduo_fgbclext.inf" ID="surfaceduo_fgbclext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Bluetooth" Name="surfaceduo_btext.inf" ID="surfaceduo_btext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\HexagonLoader" Name="surfaceduo_pilext.inf" ID="surfaceduo_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Subsystems" Name="surfaceduo_mcfg.inf" ID="surfaceduo_mcfg"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Subsystems" Name="surfaceduo_subextadsp.inf" ID="surfaceduo_subextadsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Subsystems" Name="surfaceduo_subextcdsp.inf" ID="surfaceduo_subextcdsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\Subsystems" Name="surfaceduo_subextmpss.inf" ID="surfaceduo_subextmpss"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\WLAN\China" Name="SurfaceDuo_wpextwapi8150.inf" ID="SurfaceDuo_wpextwapi8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Extensions\WLAN\Settings" Name="SurfaceDuo_WlanMisc.inf" ID="SurfaceDuo_WlanMisc"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Settings" Name="oled.inf" ID="oled"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\DEVICE.SOC_QC8150.HOTDOG\Settings" Name="SurfaceDuo_DeviceInfo.inf" ID="SurfaceDuo_DeviceInfo"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\Hotdog\GRAPHICS.SOC_QC8150.HOTDOG_DESKTOP_WDDM26" Name="SurfaceDuo_dx.inf" ID="SurfaceDuo_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA_MINIMAL\Drivers\SOC\UART" Name="qcuart8150.inf" ID="qcuart8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8150.inf" ID="qcaudminiport_Base8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
@@ -62,6 +27,41 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Services\Cellular" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Services\Cellular" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\DEVICE.SOC_QC8150.HOTDOGB\Drivers\Touch" Name="OnePlus_touch_power.inf" ID="OnePlus_touch_power"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\DEVICE.SOC_QC8150.HOTDOGB\Settings" Name="hotdogb_DeviceInfo.inf" ID="hotdogb_DeviceInfo"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\GRAPHICS.SOC_QC8150.ONEPLUS_DESKTOP" Name="qcdx8150.inf" ID="qcdx8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS_MINIMAL\Drivers\SOC\I2C" Name="OnePlus7_i2c.inf" ID="OnePlus7_i2c"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS_MINIMAL\Drivers\SOC\SPI" Name="OnePlus7_spi.inf" ID="OnePlus7_spi"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS_MINIMAL\Drivers\SOC\TrEE" Name="OnePlus7_tree.inf" ID="OnePlus7_tree"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Audio\TFA987x_amp" Name="TFA987x_amp.inf" ID="TFA987x_amp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Battery\FuelGauge" Name="HotdogBattery.inf" ID="HotdogBattery"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Bluetooth" Name="OnePlus7_btfmuart.inf" ID="OnePlus7_btfmuart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Cellular" Name="OnePlus7_ipa.inf" ID="OnePlus7_ipa"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\Sensors\SSC" Name="OnePlus7_sensors.inf" ID="OnePlus7_sensors"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Drivers\WLAN" Name="OnePlus7_wlan.inf" ID="OnePlus7_wlan"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Audio\ACDB" Name="OnePlus7_acsp.inf" ID="OnePlus7_acsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Audio\AudMiniport" Name="OnePlus7_audminiext.inf" ID="OnePlus7_audminiext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Audio\Device" Name="OnePlus7_auddevext.inf" ID="OnePlus7_auddevext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Audio\Dolby" Name="dax3_ext_qc_dolbyatmos_dolbyaccessoem.inf" ID="dax3_ext_qc_dolbyatmos_dolbyaccessoem"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Audio\Dolby" Name="dax3_qc_ext_bt.inf" ID="dax3_qc_ext_bt"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\BatteryCurrentLimiter" Name="OnePlus7_fgbclext.inf" ID="OnePlus7_fgbclext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Bluetooth" Name="OnePlus7_btext.inf" ID="OnePlus7_btext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\HexagonLoader" Name="OnePlus7_pilext.inf" ID="OnePlus7_pilext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Sensors" Name="OnePlus7_sensorsconfig.inf" ID="OnePlus7_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Subsystems" Name="OnePlus7_mcfg.inf" ID="OnePlus7_mcfg"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Subsystems" Name="OnePlus7_subextadsp.inf" ID="OnePlus7_subextadsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Subsystems" Name="OnePlus7_subextcdsp.inf" ID="OnePlus7_subextcdsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Subsystems" Name="OnePlus7_subextmpss.inf" ID="OnePlus7_subextmpss"/>
+            <!-- Crash on OOS11 -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\Subsystems" Name="OnePlus7_subextscss.inf" ID="OnePlus7_subextscss"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\WLAN\China" Name="OnePlus7_wpextwapi8150.inf" ID="OnePlus7_wpextwapi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\WLAN\Settings" Name="OnePlus7_WlanMisc.inf" ID="OnePlus7_WlanMisc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Settings" Name="oled.inf" ID="oled"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Setup" Name="OnePlus_desktopsetup.inf" ID="OnePlus_desktopsetup"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.QCOM\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.QCOM\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
@@ -98,7 +98,8 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\RPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\RPC" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
+            <!-- BSOD sometimes -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
@@ -149,4 +150,23 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
         </BaseDriverPackages>
     </Drivers>
+    <AppX>
+        <AppXPackages>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Comms.Apps.CommsEnhancement_ARM"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Comms.Apps.CommsEnhancement.CN_ARM"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Messaging" Name="Comms.Apps.Messaging_ARM64.AppxBundle" ID="Comms.Apps.Messaging_ARM64"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Phone" Name="Comms.Apps.Calls_ARM.appxbundle" ID="Comms.Apps.Calls_ARM"/>
+        </AppXPackages>
+    </AppX>
 </FeatureManifest>

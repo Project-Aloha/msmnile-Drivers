@@ -4,9 +4,6 @@
 [submodule "components/QC8150/Device/Andromeda"]
 	path = components/QC8150/Device/Andromeda
 	url = https://github.com/woa-msmnile/Andromeda
-[submodule "components/QC8150/Device/Hotdog"]
-	path = components/QC8150/Device/Hotdog
-	url = https://github.com/woa-msmnile/Hotdog
 [submodule "components/QC8150/Device/Nabu"]
 	path = components/QC8150/Device/Nabu
 	url = https://github.com/woa-msmnile/Nabu
@@ -16,3 +13,6 @@
 [submodule "components/QC8150/Device/Alpha"]
 	path = components/QC8150/Device/Alpha
 	url = https://github.com/woa-msmnile/Alpha
+[submodule "components/QC8150/Device/OnePlus"]
+	path = components/QC8150/Device/OnePlus
+	url = https://github.com/woa-msmnile/OnePlus
