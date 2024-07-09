@@ -59,6 +59,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\WLAN\China" Name="OnePlus7_wpextwapi8150.inf" ID="OnePlus7_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Extensions\WLAN\Settings" Name="OnePlus7_WlanMisc.inf" ID="OnePlus7_WlanMisc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Settings" Name="oled.inf" ID="oled"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Setup" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS\Setup" Name="OnePlus_desktopsetup.inf" ID="OnePlus_desktopsetup"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.QCOM\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.QCOM\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>

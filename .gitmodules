@@ -4,6 +4,9 @@
 [submodule "components/QC8150/Device/Andromeda"]
 	path = components/QC8150/Device/Andromeda
 	url = https://github.com/woa-msmnile/Andromeda
+[submodule "components/QC8150/Device/OnePlus"]
+	path = components/QC8150/Device/OnePlus
+	url = https://github.com/woa-msmnile/OnePlus-SM8150-DriverModule
 [submodule "components/QC8150/Device/Nabu"]
 	path = components/QC8150/Device/Nabu
 	url = https://github.com/woa-msmnile/Nabu
@@ -13,6 +16,3 @@
 [submodule "components/QC8150/Device/LG"]
 	path = components/QC8150/Device/LG
 	url = https://github.com/woa-msmnile/LGE-SM8150-DriverModule
-[submodule "components/QC8150/Device/OnePlus"]
-	path = components/QC8150/Device/OnePlus
-	url = https://github.com/woa-msmnile/OnePlus
