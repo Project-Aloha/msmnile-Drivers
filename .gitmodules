@@ -10,9 +10,9 @@
 [submodule "components/QC8150/Device/Vayu"]
 	path = components/QC8150/Device/Vayu
 	url = https://github.com/woa-msmnile/Vayu
-[submodule "components/QC8150/Device/Alpha"]
-	path = components/QC8150/Device/Alpha
-	url = https://github.com/woa-msmnile/Alpha
+[submodule "components/QC8150/Device/LGE-SM8150-DriverModule"]
+	path = components/QC8150/Device/LGE-SM8150-DriverModule
+	url = https://github.com/woa-msmnile/LGE-SM8150-DriverModule
 [submodule "components/QC8150/Device/OnePlus"]
 	path = components/QC8150/Device/OnePlus
 	url = https://github.com/woa-msmnile/OnePlus
