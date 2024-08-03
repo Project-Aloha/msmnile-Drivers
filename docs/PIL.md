@@ -14,6 +14,16 @@ The entire PIL region **allocated** by the UEFI firmware is:
 
 ### Breakdown of the different subsections of the PIL region:
 
+| FW Name      | ICP        | WCNSS      | GAP0       | ADSP       | MODEM      | VENUS      | SLPI       | IPA        | SPSS       | CDSP       | GAP1       | DHMS       |
+|--------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
+| Memory Set   | Hardcoded  | Hardcoded  | PGCM       | PGCM       | PGCM       | PGCM       | PGCM       | PGCM       | PGCM       | PGCM       | PGCM       | Hardcoded  |
+| Memory Start | 0x8B700000 | 0x8BC00000 | 0x8BD80000 | 0x8BE00000 | 0x8D800000 | 0x96E00000 | 0x97300000 | 0x98700000 | 0x98800000 | 0x98900000 | 0x99D00000 | 0x9A500000 |
+| Memory End   | 0x8BC00000 | 0x8BD80000 | 0x8BE00000 | 0x8D800000 | 0x96E00000 | 0x97300000 | 0x98700000 | 0x98800000 | 0x98900000 | 0x99D00000 | 0x9A500000 | 0x9AB00000 |
+| Memory Size  | 0x00500000 | 0x00180000 | 0x00080000 | 0x01A00000 | 0x09600000 | 0x00500000 | 0x01400000 | 0x00100000 | 0x00100000 | 0x01400000 | 0x00800000 | 0x00600000 |
+| Config       | ACPI       | ACPI, PILE |            | SUBA, PILE | SUBM       | PILE       | SUBS, PILE | PILE       | PILE       | SUBC, PILE |            | ACPI       |
+
+PGCM area is configured in PILE (qcpilEXT8150) and must match above table allocation plan.
+
 **Below regions are hardcoded in ACPI tables / firmware and are therefore not dynamically used by the Operating System**
 
 - ICP:   Start 0x8B700000, End 0x8BC00000, Size 0x00500000
@@ -34,21 +44,21 @@ We then define every firmware binary meant to load in such region:
 **Gap Here From 0x8BD80000 to 0x8BE00000**
 
 - ADSP:  Start 0x8BE00000, End 0x8D800000, Size 0x01A00000
-    - Defined in \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
     - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\Subsystems\qcsubsys_ext_adsp8150.inf
 - MODEM: Start 0x8D800000, End 0x96E00000, Size 0x09600000
     - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\Subsystems\qcsubsys_ext_mpss8150.inf
 - VENUS: Start 0x96E00000, End 0x97300000, Size 0x00500000
-    - Defined in \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
 - SLPI:  Start 0x97300000, End 0x98700000, Size 0x01400000
-    - Defined in \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
     - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\Subsystems\qcsubsys_ext_scss8150.inf
 - IPA:   Start 0x98700000, End 0x98800000, Size 0x00100000 
-    - Defined \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
 - SPSS:  Start 0x98800000, End 0x98900000, Size 0x00100000
-    - Defined \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
 - CDSP:  Start 0x98900000, End 0x99D00000, Size 0x01400000
-    - Defined in \components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\HexagonLoader\qcpil8150.inf
+    - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\HexagonLoader\qcpilEXT8150.inf
     - Defined in \components\QC8150\Device\DEVICE.SOC_QC8150.HANA\Extensions\Subsystems\qcsubsys_ext_cdsp8150.inf
 
 **Gap Here From 0x99D00000 to 0x9A500000**
