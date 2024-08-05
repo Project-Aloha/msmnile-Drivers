@@ -1,18 +1,12 @@
 ## Surface Duo BSP - Version 2408.1 (Chucky)
 
-> [!CAUTION]
-> When booting windows for the second time, after the "Getting ready" phase, it is **Normal** for your device to end in a black screen
-> DO NOT panic, DO NOT TRY TO FORCE REBOOT THE DEVICE! Leave it for 5 mins, press the power button once, or close it and reopen it, or plug in an usb cable and unplug it, do this as many times as you want, EVENTUALLY, the device will wake up. DO NOT try to reboot. Just try a few times and it will work, we promise it will not stay in a black screen. Just be a bit patient.
-
 > [!NOTE]
 > Higher thermals in Windows is currently expected and is not dangerous
-
-![image](https://github.com/WOA-Project/SurfaceDuo-Releases/assets/3755345/8682d8e4-015b-4179-9dfe-434f868754ba)
 
 <details>
   <summary>General information</summary>
   <p>
-**Released:** 07/07/2024 11:00 PM UTC+2
+**Released:** 08/04/2024 11:00 PM UTC+2
 
 **Quality:** Preview
 
@@ -32,8 +26,6 @@ You can view compatibility for this release, along with important information an
 </details>
 
 ---
-
-_More information will be available later in this changelog_
 
 _FFU images will be made available later this week_
 
@@ -160,29 +152,45 @@ Unfortunately, FFU files for this very version are not yet available. Download t
 
 Common:
 
-- **New!** Pressing volume down in the UEFI will now bring in a boot menu allowing you to go back to android, go to android recovery, bootloader and more with ease
+- Adds support for more pens (e.g., v3, v4).
 
-- **New!** The volume up button now launches the FFU Loader/UFP application in the UEFI for flashing FFU files. Previously this was bound to the Volume UP button.
+- Removes defaultinstall (primitive INF packages) as they are being phased out.
 
-- **New!** The SecureBoot enabled UEFI variable is now able to boot Windows 10X just fine
+- Default Surface wallpaper now matches the OS version.
 
-- **New!** Updated boot logo
-
-- **New!** Windows 11 will now display an option to skip connecting to a wifi or cellular network during oobe by default.
+- Touch-related hacks are no longer necessary.
 
 Surface Duo (1st Gen):
 
-- **New!** Improved panel detection and reporting in the operating system
+- Resolves long-standing issues across various Windows versions.
 
-- **New!** Resolved an issue leading to windows crash during specific windows updates
+- Adds support for Redstone 4/5 based operating systems. You need to use a secure boot disabled variant of the UEFI in order to boot these.
 
-- **New!** AT&T users do not have to dump their modemst1/2 partitions anymore to have Cellular working ok in windows with non AT&T sims, this is now handled by the driver stack properly
+- Addresses boot issues on the latest Windows 10 version (VB).
 
-- **New!** The driver stack is now 99% DCH compliant with Windows Core OS
+- Fixes recent Bluetooth issues.
 
-- **New!** Updated the GPU Vulkan/OpenCL ICDs to build 59
+- Addresses charging-related problems.
 
-- **New!** Tweaks to the digitizer configuration database, but nothing fully fixing the calibration just yet.
+- Improves SAR sensor stability.
+
+- Resolves black screen issue on first run.
+
+- Fixes broken Vulkan support in GPU driver.
+
+- Enables flash light current protection in the PMIC.
+
+- Enhances brightness control curve for displays.
+
+- Allows control of surface data telemetry collection (previously always on for Surface app and service; now user-configurable).
+
+- Fixes Bluetooth advertising issue related to device type.
+
+- GPU driver now supports HEVC encoding.
+
+- Surface Dial no longer crashes the OS shell on Windows 11.
+
+- Headphone jack now functional with the official dongle (the dongle is not just acting as a USB audio card in regards to ADSP)
 
 ---
 
