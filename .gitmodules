@@ -10,3 +10,21 @@
 [submodule "components/QC8550"]
 	path = components/QC8550
 	url = https://github.com/WOA-Project/windows_kailua_platforms
+[submodule "components/Devices/Raphael"]
+	path = components/Devices/Raphael
+	url = https://github.com/woa-msmnile/Raphael
+[submodule "components/Devices/Andromeda"]
+	path = components/Devices/Andromeda
+	url = https://github.com/woa-msmnile/Andromeda
+[submodule "components/Devices/OnePlus"]
+	path = components/Devices/OnePlus
+	url = https://github.com/woa-msmnile/OnePlus-SM8150-DriverModule
+[submodule "components/Devices/Nabu"]
+	path = components/Devices/Nabu
+	url = https://github.com/woa-msmnile/Nabu
+[submodule "components/Devices/Vayu"]
+	path = components/Devices/Vayu
+	url = https://github.com/woa-msmnile/Vayu
+[submodule "components/Devices/LG"]
+	path = components/Devices/LG
+	url = https://github.com/woa-msmnile/LGE-SM8150-DriverModule

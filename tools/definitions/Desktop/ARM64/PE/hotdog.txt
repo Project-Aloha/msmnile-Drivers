@@ -1,0 +1,6 @@
+[Drivers]
+\components\QC8150\Device\OnePlus\OEM.SOC_QC8150.ONEPLUS_MINIMAL=""
+\components\QC8150\Device\DEVICE.SOC_QC8150.HANA_MINIMAL\Drivers\SOC\UART=""
+\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL=""
+
+[Apps]

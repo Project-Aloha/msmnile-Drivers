@@ -1,0 +1,5 @@
+[Drivers]
+\components\QC8150\Device\Andromeda\DEVICE.SOC_QC8150.ANDROMEDA_MINIMAL=""
+\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL=""
+
+[Apps]

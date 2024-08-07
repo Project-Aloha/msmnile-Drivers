@@ -1,0 +1,10 @@
+[Drivers]
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS=""
+\components\QC8150\Device\Nabu\DEVICE.SOC_QC8150.NABU=""
+\components\QC8150\Device\Nabu\DEVICE.SOC_QC8150.NABU_MINIMAL=""
+\components\QC8150\Device\Nabu\GRAPHICS.SOC_QC8150.NABU_DESKTOP=""
+\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE=""
+\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL=""
+
+[Apps]

@@ -1,12 +1,17 @@
 
-# Windows Driver pack for Surface Duo platforms
+# Windows Driver pack for Qualcomm Hana and Qualcomm Lahaina based platforms
 
-![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/197420866-d3bb0534-c848-4cc2-a242-04dae48b0f6e.png)
-
-This repository contains driver binary files for Surface Duo 1 and Surface Duo 2.
-All driver binary files form a board support package to be used on Surface Duo 1 and Surface Duo 2 devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for Qualcomm Hana and Qualcomm Lahaina based platforms.
+It is based on the Windows Driver pack for Surface Duo family of devices available at https://github.com/WOA-Project/SurfaceDuo-Drivers.
+All driver binary files form a board support package to be used on Qualcomm Hana and Qualcomm Lahaina based platforms devices to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+
+## Add/Update drivers
+Refer to this [Guide](./AddAndUpdateDeviceModule.md).
+
+## Install drivers
+Refer to this [Guide](https://woa-msmnile.github.io/InstallationGuides/InstallDrivers.html).
 
 ## Resources
 
@@ -21,7 +26,7 @@ Please see [LICENSE](LICENSE.md)
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/WOA-Project/SurfaceDuo-Drivers
+git clone -c core.autocrlf=false https://github.com/woa-msmnile/msmnile-Drivers
 ```
 
 ---
