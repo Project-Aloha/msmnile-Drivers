@@ -7,16 +7,22 @@ Signature   = "$WINDOWS NT$"
 Class       = SYSTEM
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %IHV%
-DriverVer   = 04/05/2024,1.0.0.0
+DriverVer   = 08/15/2024,1.1.0.0
 CatalogFile = desktopsignature_woa-msmnile.cat
 PnpLockdown = 1
 
 ;*****************************************
-; desktopsignature_woa-msmnile  Install Section
+; desktopsignature_WOA-msmnile Install Section
 ;*****************************************
 
-[DefaultInstall.NTARM64]
-AddReg    = desktopsignature_woa_msmnile_reg
+[Manufacturer]
+%IHV% = IHV, NTARM64.10.0...16299
+
+[IHV.NTARM64.10.0...16299]
+%DesktopSignature.DeviceDesc% = DesktopSignature_Device, ROOT\DesktopSignatureWOAmsmnile
+
+[DesktopSignature_Device.NT]
+AddReg = desktopsignature_woa_msmnile_reg
 
 [desktopsignature_woa_msmnile_reg]
 
@@ -1377,4 +1383,6 @@ AddReg    = desktopsignature_woa_msmnile_reg
   39,f6,80,9d,92
 
 [Strings]
-IHV = "woa-msmnile authors"
+IHV = "WOA-msmnile authors"
+DesktopSignature.DeviceDesc = "WOA-msmnile Desktop Signature Package"
+
